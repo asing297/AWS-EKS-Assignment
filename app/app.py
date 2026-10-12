@@ -7,7 +7,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 # Bump this (and commit + push) to demo the CI/CD pipeline and the rolling deployment.
-APP_VERSION = os.environ.get("APP_VERSION", "v1.0")
+APP_VERSION = os.environ.get("APP_VERSION", "v2.0")
 
 
 def get_conn():
